@@ -1,0 +1,8 @@
+#! /bin/bash
+echo "Enter:"
+read password
+if [ -x /home/mao/myCodes/shells/t01 ]
+then
+	./t01
+fi
+

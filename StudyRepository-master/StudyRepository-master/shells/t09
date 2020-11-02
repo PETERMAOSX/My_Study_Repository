@@ -1,0 +1,4 @@
+#! /bin/bash
+read first second
+echo $first
+echo $second

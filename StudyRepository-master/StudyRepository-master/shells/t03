@@ -1,0 +1,12 @@
+#! /bin/bash
+case "$1" in
+	start)
+		echo -n "Starting SSH daemon"
+		;;
+	stop)
+		echo -n "Shutting down SSH daemon"
+		;;
+	restart)
+		echo -n "Restart SSH daemon"
+		;;
+esac

@@ -1,0 +1,12 @@
+#! /bin/bash
+echo "Enter Password:"
+read password
+if [ "$password" = "mypassword" ]
+then
+	echo "Welcome!!"
+elif [ "$password" = "maoshaoxiong" ]
+then
+	echo "HandSome Boy!"
+else
+	echo "Wrong Input!!"
+fi

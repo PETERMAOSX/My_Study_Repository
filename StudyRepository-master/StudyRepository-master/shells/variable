@@ -1,0 +1,4 @@
+#! /bin/bash
+log="Linux"
+echo "My name is:"
+echo $log

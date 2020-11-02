@@ -1,0 +1,17 @@
+#! /bin/bash
+echo "Enter Password:"
+read password
+if [ "$password" = "john" ]
+then
+	echo "Hello,john!"
+elif [ "$password" = "mike" ]
+then
+	echo "Hello,Mike!"
+elif [ "$password" = "neo" ]
+then
+	echo "Hello,NEO"
+else
+	echo "Please Input A Name You Known."
+fi
+
+

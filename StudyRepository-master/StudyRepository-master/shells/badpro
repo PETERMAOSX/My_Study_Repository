@@ -1,0 +1,9 @@
+#! /bin/bash
+while echo "I'm making files!"
+do
+	mkdir adir
+	cd adir
+	touch afile
+
+	sleep 2s
+done

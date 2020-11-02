@@ -1,0 +1,3 @@
+#!	/bin/bash
+name="Meo"
+echo "My name is ${name}.Welcome!"
